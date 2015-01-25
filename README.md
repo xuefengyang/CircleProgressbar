@@ -23,3 +23,6 @@
         circleprogressbar:progress_uncomplete_color="@color/color1" >
     </com.yxf.circleprogressbar.CircleProgressBar>
 ```
+可以自定义的属性包括  
+`progress_complete_color` `progress_uncomplete_color` `progress_fill_color` `progress_text_color`  
+`progress_fill_radius` `progress_text_size` `progress_progress` `progress_maxprogress` `progress_text_visibility` 
