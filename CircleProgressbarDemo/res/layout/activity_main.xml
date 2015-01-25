@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circleprogressbar="http://schemas.android.com/apk/res/com.yxf.circleprogressbardemo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+	
+    <com.yxf.circleprogressbar.CircleProgressBar
+        android:id="@+id/progressbar1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        circleprogressbar:progress_complete_color="@color/color2"
+        circleprogressbar:progress_fill_color="@color/color5"
+         circleprogressbar:progress_text_color="@color/color6"
+        circleprogressbar:progress_maxprogress="100"
+        circleprogressbar:progress_progress="10"
+        circleprogressbar:progress_text_size="50sp"
+        circleprogressbar:progress_text_visibility="visible"
+        circleprogressbar:progress_uncomplete_color="@color/color1" >
+    </com.yxf.circleprogressbar.CircleProgressBar>
+
+    <com.yxf.circleprogressbar.CircleProgressBar
+        android:id="@+id/progressbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        circleprogressbar:progress_complete_color="@color/color8"
+        circleprogressbar:progress_fill_color="@color/color7"
+        circleprogressbar:progress_text_color="@color/color5"
+        circleprogressbar:progress_maxprogress="100"
+        circleprogressbar:progress_progress="10"
+        circleprogressbar:progress_text_size="24sp"
+        circleprogressbar:progress_text_visibility="visible"
+        circleprogressbar:progress_uncomplete_color="@color/color9" >
+    </com.yxf.circleprogressbar.CircleProgressBar>
+
+    <com.yxf.circleprogressbar.CircleProgressBar
+        android:id="@+id/progressbar3"
+        android:layout_width="80dp"			
+        android:layout_height="80dp" >
+    </com.yxf.circleprogressbar.CircleProgressBar>
+	
+    <com.yxf.circleprogressbar.CircleProgressBar
+        android:id="@+id/progressbar4"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        circleprogressbar:progress_complete_color="@color/color10"
+        circleprogressbar:progress_fill_color="@color/color8"
+        circleprogressbar:progress_text_color="@color/color3"
+        circleprogressbar:progress_maxprogress="100"
+        circleprogressbar:progress_progress="10"
+        circleprogressbar:progress_text_size="36sp"
+        circleprogressbar:progress_text_visibility="visible"
+        circleprogressbar:progress_uncomplete_color="@color/color1" >
+    </com.yxf.circleprogressbar.CircleProgressBar>
+
+    <com.yxf.circleprogressbar.CircleProgressBar
+        android:id="@+id/progressbar5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        circleprogressbar:progress_complete_color="@color/color4"
+        circleprogressbar:progress_fill_color="@color/color5"
+         circleprogressbar:progress_text_color="@color/color7"
+        circleprogressbar:progress_maxprogress="100"
+        circleprogressbar:progress_progress="10"
+        circleprogressbar:progress_text_size="48sp"
+        circleprogressbar:progress_text_visibility="visible"
+        circleprogressbar:progress_uncomplete_color="@color/color9" >
+    </com.yxf.circleprogressbar.CircleProgressBar>
+
+</LinearLayout>
