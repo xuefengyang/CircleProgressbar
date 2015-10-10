@@ -13,7 +13,6 @@ public class MainActivity extends Activity {
     private CircleProgressBar mProgerssBar4;
     private CircleProgressBar mProgressBar5;
     private boolean flag=true;
-    
     Handler mHandler =new Handler(){   
         public void handleMessage(android.os.Message msg) {
             int progress = mProgressBar.getProgress();
